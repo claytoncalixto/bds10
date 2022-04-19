@@ -1,7 +1,14 @@
 .movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 45px;
   margin-top: 15px;
   margin-left: 15px;
   color: #ffffff;
+  background: #6C6C6C;
+  margin-bottom: 40px;
 }
 
 .movie-container h1 {
@@ -10,6 +17,7 @@
 
 .movie-list-container {
   margin-top: 40px;
+  
 }
 
 .movie-list-container ul {
@@ -21,6 +29,69 @@
 
 .movie-list-container li {
   padding-bottom: 12px;
+}
+
+.movie-genre-container {
+  width: 250px;
+  height: 40px;
+  background: #6C6C6C;
+  box-shadow: 300px 4px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  
+}
+
+.movie-genre-container {
+  width: 250px;
+}
+
+.movie-genre-select__control {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+ display: flex !important;
+ align-items: center !important;
+ 
+}
+
+.movie-genre-select__control css-1s2u09g-control {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__indicator-separator{
+  display: none;
+}
+
+.movie-genre-select__placeholder css-14el2xx-placeholder {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__value-container css-319lph-ValueContainer {
+  color:#ffffff !important;
+}
+
+.movie-genre-select__input-container css-b62m3t-container {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__input-container css-6j8wv5-container {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__input-container data-value {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__input-container value style {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important; 
+}
+
+.movie-genre-select__control{
+  
 }
 
 @media (min-width: 992px) {

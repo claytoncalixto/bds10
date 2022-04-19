@@ -1,0 +1,30 @@
+.movie-card {
+    padding: 20px 10px;
+    width: 270px;
+    height: 322px;
+    border-radius: 4px;
+    background: #6C6C6C;
+    
+
+  }
+  
+  .movie-card-top-container {
+    text-align: center;
+   
+  }
+  
+  .movie-card-top-container img {
+    width: 250px;
+    height: 165px;
+    margin-top: 26px;
+  }
+  
+  .movie-card-bottom-container {
+    
+  }
+  
+  .movie-card-bottom-container h6 {
+    font-size: 18px;
+    
+  }
+  

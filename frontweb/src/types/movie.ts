@@ -1,11 +1,11 @@
-import { Category } from "./category";
+import { Genre } from "./genre";
 
 export type Movie = {
         id: number;
-        name: string;
-        description: string;
-        price: number;
+        title: string;
+        subTitle: string;
+        synopsis: string;
         imgUrl: string
-        date: string;
-        categories: Category[];            
+        year: number;
+        genre: Genre[];            
 }
