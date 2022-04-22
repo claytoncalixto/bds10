@@ -41,7 +41,7 @@ const Evaluation = ({ movieId }: Props) => {
           <input
             {...register('text')}
             type="text"
-            className="form-control evaluation-input base-input"
+            className="form-control base-input  evaluation-input"
             placeholder="Deixe a sua avaliação aqui"
             name="text"
           />

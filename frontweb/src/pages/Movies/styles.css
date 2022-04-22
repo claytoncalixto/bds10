@@ -1,18 +1,24 @@
 .movie-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 270px;
-  height: 45px;
-  margin-top: 15px;
-  margin-left: 15px;
-  color: #ffffff;
-  background: #6C6C6C;
-  margin-bottom: 40px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-content: center;
+ height: 60px;
+ margin-top: 15px;
+ margin-left: 15px;
+ color: #ffffff !important;
+ background: #6C6C6C !important;
+ margin-bottom: 40px;
 }
 
-.movie-container h1 {
-  font-size: 24px;
+.pagination-container ul{
+  display: flex;
+  flex-direction: row !important; 
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .movie-list-container {
@@ -20,7 +26,7 @@
   
 }
 
-.movie-list-container ul {
+.movie-list-items-container {
   font-size: 18px;
   list-style-type: none;
   padding-left: 0px;
@@ -36,8 +42,7 @@
   height: 40px;
   background: #6C6C6C;
   box-shadow: 300px 4px 60px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  
+  border-radius: 4px;  
 }
 
 .movie-genre-container {
@@ -45,14 +50,62 @@
 }
 
 .movie-genre-select__control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   color:#ffffff !important;
   background-color: #6C6C6C !important;
- display: flex !important;
- align-items: center !important;
- 
+  padding: 5px 20px;
+  margin-top: 5px;
 }
 
-.movie-genre-select__control css-1s2u09g-control {
+.css-1f43avz-a11yText-A11yText{
+  color:#ffffff !important;
+  background-color: #6C6C6C!important;
+}
+
+.css-b62m3t-container {
+  color:#ffffff !important;
+  background-color: #6C6C6C!important;
+}
+
+.movie-genre-select__placeholder{
+  color:#ffffff !important;
+  background-color: #6C6C6C!important;
+}
+
+.movie-genre-select__input {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__single-value css-qc6sy-singleValue {
+  color:#ffffff !important;
+  background-color: #6C6C6C!important;
+}
+
+.movie-genre-select__input-container-css-6j8wv5-Input-data-value{
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__input-container.css-6j8wv5-Input-value-style{
+  color:#ffffff !important;
+  background-color: #6C6C6C!important;
+}
+
+.movie-genre-select__input-value-style {
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.movie-genre-select__input react-select-3-input.movie-genre-select__input{
+  color:#ffffff !important;
+  background-color: #6C6C6C !important;
+}
+
+.react-select-3-input.movie-genre-select__input{
   color:#ffffff !important;
   background-color: #6C6C6C !important;
 }
@@ -61,37 +114,42 @@
   display: none;
 }
 
-.movie-genre-select__placeholder css-14el2xx-placeholder {
-  color:#ffffff !important;
-  background-color: #6C6C6C !important;
+.movie-pagination{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 }
 
-.movie-genre-select__value-container css-319lph-ValueContainer {
-  color:#ffffff !important;
-}
+@media (min-width: 576px) {
 
-.movie-genre-select__input-container css-b62m3t-container {
-  color:#ffffff !important;
-  background-color: #6C6C6C !important;
-}
+  .movie-genre-container {
+    width: 250px;
+    display: flex;
+    align-items: flex-start;
+  }
 
-.movie-genre-select__input-container css-6j8wv5-container {
-  color:#ffffff !important;
-  background-color: #6C6C6C !important;
-}
-
-.movie-genre-select__input-container data-value {
-  color:#ffffff !important;
-  background-color: #6C6C6C !important;
-}
-
-.movie-genre-select__input-container value style {
-  color:#ffffff !important;
-  background-color: #6C6C6C !important; 
-}
-
-.movie-genre-select__control{
+  .movie-genre-select__control {
+    display: none;
+    justify-content: flex-start;
+    align-items: flex;
+    align-content: flex-start;
+    color:#ffffff !important;
+    background-color: #6C6C6C !important;
   
+    align-items: center !important;
+    padding: 5px 20px;
+    margin-top: 5px;
+  }
+
+  .movie-genre-select__control css-1s2u09g-control {
+    width: 260px;
+    display: flex;
+    align-content: flex-start !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -99,7 +157,7 @@
     font-size: 48px;
   }
 
-  .movie-list-container ul {
+  .movie-list-items-container {
     font-size: 24px;
   }
 

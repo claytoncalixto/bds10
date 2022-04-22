@@ -1,4 +1,5 @@
 import MovieCard from 'components/MovieCard';
+import Pagination from 'components/Pagination';
 import { Link } from 'react-router-dom';
 import Select from 'react-select';
 
@@ -29,35 +30,41 @@ const Movie = () => {
   ];
 
   return (
-    <div className="movie-container">
-      <div className=" movie-genre-container">
-        <Select options={options} classNamePrefix="movie-genre-select" />
+    
+      <div className="movie-container">
+        <div className=" movie-genre-container">
+          <Select options={options} classNamePrefix="movie-genre-select" />
+        </div>
+        <div className=" row movie-list-container">
+          <ul className="movie-list-items-container">
+            <Link to="/movies/1">
+              <div className="col-sm-6 col-md-12">
+                <MovieCard movie={movie} />
+              </div>
+            </Link>
+            <Link to="/movies/2">
+              <div className="col-sm-6 col-md-12">
+                <MovieCard movie={movie} />
+              </div>
+            </Link>
+            <Link to="/movies/2">
+              <div className="col-sm-6 col-md-12">
+                <MovieCard movie={movie} />
+              </div>
+            </Link>
+            <Link to="/movies/2">
+              <div className="col-sm-6 col-md-12">
+                <MovieCard movie={movie} />
+              </div>
+            </Link>
+          </ul>
+        </div>
+        <div className=" row pagination-container">
+            <Pagination />
+        </div>
       </div>
-
-      <div className="movie-list-container">
-        <ul>
-          <Link to="/movies/1">
-            <div>
-              <MovieCard movie={movie} />
-            </div>
-          </Link>
-          <Link to="/movies/2">
-            <div>
-              <MovieCard movie={movie} />
-            </div>
-          </Link>
-          <Link to="/movies/2">
-            <div>
-              <MovieCard movie={movie} />
-            </div>
-          </Link><Link to="/movies/2">
-            <div>
-              <MovieCard movie={movie} />
-            </div>
-          </Link>
-        </ul>
-      </div>
-    </div>
+      
+    
   );
 };
 

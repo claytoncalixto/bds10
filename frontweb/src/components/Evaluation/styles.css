@@ -1,17 +1,22 @@
-.evaluation-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 157px;
-    margin: 20px 10px 0px 10px;
+.evaluation-card {  
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 10px ;
   }
   
   .evaluation-input {
+    width: 270;
+    height: auto;
     font-size: 16px;
   }
   
   .evaluation-submit {
+    width: 270;
+    height: auto;
     margin-top: 17px;
     margin-bottom: 20px;
   }

@@ -1,11 +1,11 @@
 .movie-card {
-    padding: 20px 10px;
+    
     width: 270px;
-    height: 322px;
+    height: auto;
     border-radius: 4px;
     background: #6C6C6C;
-    
-
+    padding: 10px 10px;
+    margin-top: 10px;
   }
   
   .movie-card-top-container {
@@ -20,11 +20,26 @@
   }
   
   .movie-card-bottom-container {
-    
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: -0.015em;
+  }
+
+  .movie-card-bottom-container h4 {
+    font-weight: 700;
+    font-size: 20px;    
+    color: #FFFFFF;
   }
   
+  .movie-card-bottom-container h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+
   .movie-card-bottom-container h6 {
-    font-size: 18px;
-    
+    font-weight: 400;
+    font-size: 16px;
+    color:  #FFC700;
   }
   

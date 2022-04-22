@@ -13,9 +13,9 @@ const MovieCard = ( { movie }: Props) => {
                 <img src={movie.imgUrl} alt={movie.title} />
             </div>
             <div className="movie-card-bottom-container  text-white">
-                <h6>{ movie.title }</h6>
+                <h4>{ movie.title }</h4>
                 <h6>{ movie.year}</h6>
-                <h6>{ movie.subTitle}</h6>
+                <h5>{ movie.subTitle}</h5>
             </div>
         </div>
     );
