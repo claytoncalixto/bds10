@@ -38,22 +38,22 @@ const Movie = () => {
         <div className=" row movie-list-container">
           <ul className="movie-list-items-container">
             <Link to="/movies/1">
-              <div className="col-sm-6 col-md-12">
+              <div className="col-sm-6">
                 <MovieCard movie={movie} />
               </div>
             </Link>
             <Link to="/movies/2">
-              <div className="col-sm-6 col-md-12">
+              <div className="col-sm-6">
                 <MovieCard movie={movie} />
               </div>
             </Link>
             <Link to="/movies/2">
-              <div className="col-sm-6 col-md-12">
+              <div className="col-sm-6">
                 <MovieCard movie={movie} />
               </div>
             </Link>
             <Link to="/movies/2">
-              <div className="col-sm-6 col-md-12">
+              <div className="col-sm-6">
                 <MovieCard movie={movie} />
               </div>
             </Link>

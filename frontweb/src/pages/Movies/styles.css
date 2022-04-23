@@ -128,17 +128,21 @@
     align-items: flex-start;
   }
 
+  .movie-genre-select{
+    margin-right: 256px;
+    margin-left: 20px;
+  }
+
   .movie-genre-select__control {
     display: none;
     justify-content: flex-start;
     align-items: flex;
     align-content: flex-start;
     color:#ffffff !important;
-    background-color: #6C6C6C !important;
-  
+    background-color: #6C6C6C !important;  
     align-items: center !important;
-    padding: 5px 20px;
-    margin-top: 5px;
+    padding: 5px 20px;    
+    
   }
 
   .movie-genre-select__control css-1s2u09g-control {

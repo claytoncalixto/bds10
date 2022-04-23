@@ -1,5 +1,4 @@
-.movie-card {
-    
+.movie-card {    
     width: 270px;
     height: auto;
     border-radius: 4px;
@@ -10,13 +9,13 @@
   
   .movie-card-top-container {
     text-align: center;
-   
   }
   
   .movie-card-top-container img {
     width: 250px;
     height: 165px;
     margin-top: 26px;
+    margin-bottom: 10px;
   }
   
   .movie-card-bottom-container {
@@ -41,5 +40,12 @@
     font-weight: 400;
     font-size: 16px;
     color:  #FFC700;
+  }
+
+  @media (min-width: 576px) {
+    .movie-card {  
+     
+
+    }
   }
   
